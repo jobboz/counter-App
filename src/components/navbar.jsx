@@ -12,5 +12,9 @@ const Navbar = ({totalCounters}) => {
         </nav>
     </div> );
 }
+
+
+
+
  
 export default Navbar;
