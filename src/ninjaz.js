@@ -34,7 +34,7 @@ const Ninjaz = ({ninjaz, deleteNinja}) => {
         })
         return ( 
             <div className="ninja-list">
-            { ninjazList }
+            {  ninjazList  }
             </div>
             
          );

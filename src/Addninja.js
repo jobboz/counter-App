@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class AddNinja extends Component {
     state = {
@@ -11,13 +11,13 @@ class AddNinja extends Component {
    
     handleSubmit = (e) => {
         e.preventDefault()
-       this.props.addNewNinja(this.state)
+       this.props.addNewNinja( this.state )
         
     }
 
     handleChange = (e) => {
         this.setState({
-            [e.target.id]: e.target.value
+            [ e.target.id ]: e.target.value
         })
     }
     render () {
