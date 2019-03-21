@@ -53,12 +53,51 @@ class App extends Component {
   }
   
 
+//   state = {
+//   ninjaz : [
+//     {name:'joe', age:26, belt:'black', id: 1},
+//     {name:'paul', age:24, belt:'green', id: 2},
+//     {name:'ben', age:20, belt:'red', id: 3}
+//   ]
+// }
+// addNewNinja = (ninja) => {
+// ninja.id = Math.random()
+// let ninjas = [...this.state.ninjaz, ninja] //spread operator which was used to add new ninja
+// this.setState({
+//        ninjaz:ninjas
+       
+// })
 
+// }
+// //for deleting a particular ninja
+// deleteNinja = (id) => {
+//   let ninja = this.state.ninjaz.filter(ninja => {
+//     return ninja.id !== id
+//   })
+//   this.setState({
+//     ninjaz:ninja
+//   })
+
+// }
+// componentDidMount ()  { //used or remembered when the component first mourt the dom
+//   console.log('component mounted ')
+// }
+// componentDidUpdate (prevProps, prevState) {
+//      console.log('component updated');
+//      console.log(prevProps, prevState)
+//} //used when we get a change of state or props
   render() {
     console.log("App-rendered")
     return (
       
-      
+      // <div className="App">
+      //   <h1>My first react App!</h1>
+      //   <p>Welcome :)</p>
+      //   <Ninjaz deleteNinja={this.deleteNinja} ninjaz={this.state.ninjaz}/> 
+      //   <Addninja addNewNinja={this.addNewNinja}/>
+        
+        
+      // </div>
       <React.Fragment>
       <Navbar totalCounters={this.state.counters.filter(c => c.value > 0).length} />
       <main className="container">
