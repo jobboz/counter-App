@@ -12,9 +12,15 @@ pipeline {
        }
 
     stage("test") {
+       
+         when {
+           expression {
             
+         
+           }  
+           }   
            steps {
-           echo 'testing the application...'
+           echo 'deploying the application...'
              
            }   
        }
@@ -26,5 +32,7 @@ pipeline {
              
            }   
        }
+
+        
   }
 }
